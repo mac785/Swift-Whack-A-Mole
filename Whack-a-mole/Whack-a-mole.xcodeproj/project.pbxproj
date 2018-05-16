@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D19522E1E4E38D1006891D2 /* 11463.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D19522D1E4E38D1006891D2 /* 11463.jpg */; };
+		0D1952311E4E3CCD006891D2 /* audio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D1952301E4E3CCD006891D2 /* audio.wav */; };
+		0D1952331E4E3FBB006891D2 /* BetterAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D1952321E4E3FBB006891D2 /* BetterAudio.mp3 */; };
+		0D2B8C9D1E44FF330097ABA5 /* Mole Images in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B8C9C1E44FF330097ABA5 /* Mole Images */; };
+		0DB3AE941E4BA4490070B3B6 /* More Moles in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE931E4BA4490070B3B6 /* More Moles */; };
+		0DB3AE9D1E4BA6CF0070B3B6 /* EmptyHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE961E4BA6CF0070B3B6 /* EmptyHole.png */; };
+		0DB3AE9E1E4BA6CF0070B3B6 /* HoleWithEscapingMole.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE971E4BA6CF0070B3B6 /* HoleWithEscapingMole.png */; };
+		0DB3AE9F1E4BA6CF0070B3B6 /* HoleWithEvilMole.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE981E4BA6CF0070B3B6 /* HoleWithEvilMole.png */; };
+		0DB3AEA01E4BA6CF0070B3B6 /* HoleWithMole.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE991E4BA6CF0070B3B6 /* HoleWithMole.png */; };
+		0DB3AEA11E4BA6CF0070B3B6 /* HoleWithSoreMole.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE9A1E4BA6CF0070B3B6 /* HoleWithSoreMole.png */; };
+		0DB3AEA21E4BA6CF0070B3B6 /* WhackAMoleAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE9B1E4BA6CF0070B3B6 /* WhackAMoleAppIcon@2x.png */; };
+		0DB3AEA31E4BA6CF0070B3B6 /* WhackAMoleAppIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3AE9C1E4BA6CF0070B3B6 /* WhackAMoleAppIcon@3x.png */; };
+		0DC3842D1E43C21B00F9B3E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3842C1E43C21B00F9B3E9 /* AppDelegate.swift */; };
+		0DC3842F1E43C21B00F9B3E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3842E1E43C21B00F9B3E9 /* ViewController.swift */; };
+		0DC384321E43C21B00F9B3E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC384301E43C21B00F9B3E9 /* Main.storyboard */; };
+		0DC384341E43C21B00F9B3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC384331E43C21B00F9B3E9 /* Assets.xcassets */; };
+		0DC384371E43C21B00F9B3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC384351E43C21B00F9B3E9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D19522D1E4E38D1006891D2 /* 11463.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11463.jpg; path = "Mole Images/11463.jpg"; sourceTree = "<group>"; };
+		0D1952301E4E3CCD006891D2 /* audio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio.wav; sourceTree = "<group>"; };
+		0D1952321E4E3FBB006891D2 /* BetterAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BetterAudio.mp3; sourceTree = "<group>"; };
+		0D2B8C9C1E44FF330097ABA5 /* Mole Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Mole Images"; sourceTree = "<group>"; };
+		0DB3AE931E4BA4490070B3B6 /* More Moles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "More Moles"; sourceTree = "<group>"; };
+		0DB3AE961E4BA6CF0070B3B6 /* EmptyHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EmptyHole.png; path = "Mole Images/EmptyHole.png"; sourceTree = "<group>"; };
+		0DB3AE971E4BA6CF0070B3B6 /* HoleWithEscapingMole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HoleWithEscapingMole.png; path = "Mole Images/HoleWithEscapingMole.png"; sourceTree = "<group>"; };
+		0DB3AE981E4BA6CF0070B3B6 /* HoleWithEvilMole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HoleWithEvilMole.png; path = "Mole Images/HoleWithEvilMole.png"; sourceTree = "<group>"; };
+		0DB3AE991E4BA6CF0070B3B6 /* HoleWithMole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HoleWithMole.png; path = "Mole Images/HoleWithMole.png"; sourceTree = "<group>"; };
+		0DB3AE9A1E4BA6CF0070B3B6 /* HoleWithSoreMole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HoleWithSoreMole.png; path = "Mole Images/HoleWithSoreMole.png"; sourceTree = "<group>"; };
+		0DB3AE9B1E4BA6CF0070B3B6 /* WhackAMoleAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WhackAMoleAppIcon@2x.png"; path = "More Moles/WhackAMoleAppIcon@2x.png"; sourceTree = "<group>"; };
+		0DB3AE9C1E4BA6CF0070B3B6 /* WhackAMoleAppIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WhackAMoleAppIcon@3x.png"; path = "More Moles/WhackAMoleAppIcon@3x.png"; sourceTree = "<group>"; };
+		0DC384291E43C21B00F9B3E9 /* Whack-a-mole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-mole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC3842C1E43C21B00F9B3E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DC3842E1E43C21B00F9B3E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DC384311E43C21B00F9B3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DC384331E43C21B00F9B3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC384361E43C21B00F9B3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DC384381E43C21B00F9B3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DC384261E43C21B00F9B3E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D19522F1E4E3CB5006891D2 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D1952301E4E3CCD006891D2 /* audio.wav */,
+				0D1952321E4E3FBB006891D2 /* BetterAudio.mp3 */,
+			);
+			name = "Audio Files";
+			path = "Whack-a-mole";
+			sourceTree = "<group>";
+		};
+		0DB3AE951E4BA6BC0070B3B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0DB3AE961E4BA6CF0070B3B6 /* EmptyHole.png */,
+				0DB3AE971E4BA6CF0070B3B6 /* HoleWithEscapingMole.png */,
+				0DB3AE981E4BA6CF0070B3B6 /* HoleWithEvilMole.png */,
+				0DB3AE991E4BA6CF0070B3B6 /* HoleWithMole.png */,
+				0DB3AE9A1E4BA6CF0070B3B6 /* HoleWithSoreMole.png */,
+				0DB3AE9B1E4BA6CF0070B3B6 /* WhackAMoleAppIcon@2x.png */,
+				0DB3AE9C1E4BA6CF0070B3B6 /* WhackAMoleAppIcon@3x.png */,
+				0D19522D1E4E38D1006891D2 /* 11463.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0DC384201E43C21B00F9B3E9 = {
+			isa = PBXGroup;
+			children = (
+				0D19522F1E4E3CB5006891D2 /* Audio Files */,
+				0DB3AE951E4BA6BC0070B3B6 /* Images */,
+				0DC3842B1E43C21B00F9B3E9 /* Whack-a-mole */,
+				0DC3842A1E43C21B00F9B3E9 /* Products */,
+				0D2B8C9C1E44FF330097ABA5 /* Mole Images */,
+				0DB3AE931E4BA4490070B3B6 /* More Moles */,
+			);
+			sourceTree = "<group>";
+		};
+		0DC3842A1E43C21B00F9B3E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC384291E43C21B00F9B3E9 /* Whack-a-mole.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DC3842B1E43C21B00F9B3E9 /* Whack-a-mole */ = {
+			isa = PBXGroup;
+			children = (
+				0DC3842C1E43C21B00F9B3E9 /* AppDelegate.swift */,
+				0DC3842E1E43C21B00F9B3E9 /* ViewController.swift */,
+				0DC384301E43C21B00F9B3E9 /* Main.storyboard */,
+				0DC384331E43C21B00F9B3E9 /* Assets.xcassets */,
+				0DC384351E43C21B00F9B3E9 /* LaunchScreen.storyboard */,
+				0DC384381E43C21B00F9B3E9 /* Info.plist */,
+			);
+			path = "Whack-a-mole";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DC384281E43C21B00F9B3E9 /* Whack-a-mole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC3843B1E43C21B00F9B3E9 /* Build configuration list for PBXNativeTarget "Whack-a-mole" */;
+			buildPhases = (
+				0DC384251E43C21B00F9B3E9 /* Sources */,
+				0DC384261E43C21B00F9B3E9 /* Frameworks */,
+				0DC384271E43C21B00F9B3E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whack-a-mole";
+			productName = "Whack-a-mole";
+			productReference = 0DC384291E43C21B00F9B3E9 /* Whack-a-mole.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DC384211E43C21B00F9B3E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jamie Moseley";
+				TargetAttributes = {
+					0DC384281E43C21B00F9B3E9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0DC384241E43C21B00F9B3E9 /* Build configuration list for PBXProject "Whack-a-mole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DC384201E43C21B00F9B3E9;
+			productRefGroup = 0DC3842A1E43C21B00F9B3E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DC384281E43C21B00F9B3E9 /* Whack-a-mole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DC384271E43C21B00F9B3E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB3AE9F1E4BA6CF0070B3B6 /* HoleWithEvilMole.png in Resources */,
+				0DB3AEA21E4BA6CF0070B3B6 /* WhackAMoleAppIcon@2x.png in Resources */,
+				0DB3AE941E4BA4490070B3B6 /* More Moles in Resources */,
+				0D1952331E4E3FBB006891D2 /* BetterAudio.mp3 in Resources */,
+				0DC384371E43C21B00F9B3E9 /* LaunchScreen.storyboard in Resources */,
+				0DB3AEA31E4BA6CF0070B3B6 /* WhackAMoleAppIcon@3x.png in Resources */,
+				0D1952311E4E3CCD006891D2 /* audio.wav in Resources */,
+				0D19522E1E4E38D1006891D2 /* 11463.jpg in Resources */,
+				0DB3AEA11E4BA6CF0070B3B6 /* HoleWithSoreMole.png in Resources */,
+				0DB3AEA01E4BA6CF0070B3B6 /* HoleWithMole.png in Resources */,
+				0DC384341E43C21B00F9B3E9 /* Assets.xcassets in Resources */,
+				0D2B8C9D1E44FF330097ABA5 /* Mole Images in Resources */,
+				0DB3AE9E1E4BA6CF0070B3B6 /* HoleWithEscapingMole.png in Resources */,
+				0DC384321E43C21B00F9B3E9 /* Main.storyboard in Resources */,
+				0DB3AE9D1E4BA6CF0070B3B6 /* EmptyHole.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC384251E43C21B00F9B3E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC3842F1E43C21B00F9B3E9 /* ViewController.swift in Sources */,
+				0DC3842D1E43C21B00F9B3E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DC384301E43C21B00F9B3E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC384311E43C21B00F9B3E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DC384351E43C21B00F9B3E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC384361E43C21B00F9B3E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DC384391E43C21B00F9B3E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DC3843A1E43C21B00F9B3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DC3843C1E43C21B00F9B3E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-mole/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moseley.Jamie.Whack-a-mole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0DC3843D1E43C21B00F9B3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-mole/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moseley.Jamie.Whack-a-mole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC384241E43C21B00F9B3E9 /* Build configuration list for PBXProject "Whack-a-mole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC384391E43C21B00F9B3E9 /* Debug */,
+				0DC3843A1E43C21B00F9B3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC3843B1E43C21B00F9B3E9 /* Build configuration list for PBXNativeTarget "Whack-a-mole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC3843C1E43C21B00F9B3E9 /* Debug */,
+				0DC3843D1E43C21B00F9B3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DC384211E43C21B00F9B3E9 /* Project object */;
+}

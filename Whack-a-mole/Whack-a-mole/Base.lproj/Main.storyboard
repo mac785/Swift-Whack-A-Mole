@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Whack_a_mole" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eqv-cP-5Mw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jimmy's Whack-a-Mole!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryI-8d-mkD">
+                                <rect key="frame" x="56" y="40" width="303" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPN-aM-w6f">
+                                <rect key="frame" x="51" y="204" width="64" height="64"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sfM-Ds-1bO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVf-s1-2sB">
+                                <rect key="frame" x="299" y="204" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wVq-cs-5a6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmm-QY-gxB">
+                                <rect key="frame" x="51" y="328" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Cd-0a-eMi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwt-wq-BW7">
+                                <rect key="frame" x="175" y="328" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hVv-D1-9zq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoH-5j-jre">
+                                <rect key="frame" x="299" y="328" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u3E-ba-yMH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTi-eX-egs">
+                                <rect key="frame" x="51" y="452" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zkS-co-PVN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRr-9e-MzZ">
+                                <rect key="frame" x="175" y="452" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="spC-vB-LSm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="32" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TZ-zu-pCL">
+                                <rect key="frame" x="299" y="452" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="glR-tF-mPy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQj-gy-Rpo">
+                                <rect key="frame" x="51" y="576" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yKI-4m-fns"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="41" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gys-7J-VaM">
+                                <rect key="frame" x="175" y="576" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="blC-ac-1ob"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="42" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXd-9S-AD9">
+                                <rect key="frame" x="299" y="576" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7z-NY-Yg5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSE-L2-wcw">
+                                <rect key="frame" x="175" y="204" width="64" height="64"/>
+                                <state key="normal" image="EmptyHole.png"/>
+                                <connections>
+                                    <action selector="moleMasherWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JMV-lz-crL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PR-MO-RzW">
+                                <rect key="frame" x="159" y="684" width="96" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pSE-L2-wcw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1c1-3s-QOC"/>
+                            <constraint firstItem="gys-7J-VaM" firstAttribute="top" secondItem="QRr-9e-MzZ" secondAttribute="bottom" constant="60" id="3ol-tP-8Fb"/>
+                            <constraint firstItem="kwt-wq-BW7" firstAttribute="top" secondItem="pSE-L2-wcw" secondAttribute="bottom" constant="60" id="5Pw-9i-wDG"/>
+                            <constraint firstItem="QRr-9e-MzZ" firstAttribute="leading" secondItem="dTi-eX-egs" secondAttribute="trailing" constant="60" id="5gv-ch-IB3"/>
+                            <constraint firstItem="kwt-wq-BW7" firstAttribute="leading" secondItem="nmm-QY-gxB" secondAttribute="trailing" constant="60" id="8ml-xE-qRY"/>
+                            <constraint firstItem="CoH-5j-jre" firstAttribute="leading" secondItem="kwt-wq-BW7" secondAttribute="trailing" constant="60" id="Bqm-E7-BQr"/>
+                            <constraint firstItem="8PR-MO-RzW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JLX-8D-OtG"/>
+                            <constraint firstItem="eVf-s1-2sB" firstAttribute="centerY" secondItem="bPN-aM-w6f" secondAttribute="centerY" id="N0A-fP-wlV"/>
+                            <constraint firstItem="QRr-9e-MzZ" firstAttribute="centerY" secondItem="dTi-eX-egs" secondAttribute="centerY" id="OxZ-xA-ksc"/>
+                            <constraint firstItem="QRr-9e-MzZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QRi-gF-lgg"/>
+                            <constraint firstItem="gys-7J-VaM" firstAttribute="leading" secondItem="BQj-gy-Rpo" secondAttribute="trailing" constant="60" id="VjO-2U-gPu"/>
+                            <constraint firstItem="ryI-8d-mkD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="WrF-kl-rJz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8PR-MO-RzW" secondAttribute="bottom" constant="20" id="XoP-Nw-ZkO"/>
+                            <constraint firstItem="gys-7J-VaM" firstAttribute="centerY" secondItem="BQj-gy-Rpo" secondAttribute="centerY" id="Z12-fn-oMc"/>
+                            <constraint firstItem="8TZ-zu-pCL" firstAttribute="leading" secondItem="QRr-9e-MzZ" secondAttribute="trailing" constant="60" id="ctK-LO-kwE"/>
+                            <constraint firstItem="kwt-wq-BW7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="euA-rP-0Vf"/>
+                            <constraint firstItem="XXd-9S-AD9" firstAttribute="centerY" secondItem="BQj-gy-Rpo" secondAttribute="centerY" id="hVD-wd-Qiy"/>
+                            <constraint firstItem="pSE-L2-wcw" firstAttribute="top" secondItem="ryI-8d-mkD" secondAttribute="bottom" constant="130" id="ia8-Wd-49c"/>
+                            <constraint firstItem="pSE-L2-wcw" firstAttribute="leading" secondItem="bPN-aM-w6f" secondAttribute="trailing" constant="60" id="l25-1A-rbv"/>
+                            <constraint firstItem="CoH-5j-jre" firstAttribute="centerY" secondItem="nmm-QY-gxB" secondAttribute="centerY" id="oBJ-TF-gHH"/>
+                            <constraint firstItem="XXd-9S-AD9" firstAttribute="leading" secondItem="gys-7J-VaM" secondAttribute="trailing" constant="60" id="oON-sd-mwi"/>
+                            <constraint firstItem="8TZ-zu-pCL" firstAttribute="centerY" secondItem="dTi-eX-egs" secondAttribute="centerY" id="py2-Jr-Bv3"/>
+                            <constraint firstItem="QRr-9e-MzZ" firstAttribute="top" secondItem="kwt-wq-BW7" secondAttribute="bottom" constant="60" id="qCL-dG-XwK"/>
+                            <constraint firstItem="kwt-wq-BW7" firstAttribute="centerY" secondItem="nmm-QY-gxB" secondAttribute="centerY" id="qk2-EZ-c26"/>
+                            <constraint firstItem="ryI-8d-mkD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r6H-rI-xpw"/>
+                            <constraint firstItem="eVf-s1-2sB" firstAttribute="leading" secondItem="pSE-L2-wcw" secondAttribute="trailing" constant="60" id="sZM-1o-paf"/>
+                            <constraint firstItem="gys-7J-VaM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sn2-xL-kmM"/>
+                            <constraint firstItem="pSE-L2-wcw" firstAttribute="centerY" secondItem="bPN-aM-w6f" secondAttribute="centerY" id="vuP-RR-H5L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="Eqv-cP-5Mw" id="5sx-wo-EEF"/>
+                        <outlet property="scoreLabel" destination="8PR-MO-RzW" id="LBx-Db-nUG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.39130434782609" y="123.09782608695653"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EmptyHole.png" width="64" height="64"/>
+    </resources>
+</document>
